@@ -1,0 +1,467 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+body{
+    background-color:rgb(255, 255, 255);
+    padding-top: 60px;
+  
+}
+nav{
+   background-color: rgb(33, 58, 67);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 500;
+    box-shadow: 0 4px 4px rgba(0, 0, 0 , 0.5);
+    display: flex;
+    justify-content: space-between;
+
+}
+nav h2{
+    font-family: arial;
+    color: white;
+    margin-left: -81rem;
+    margin-top: 35px;
+    font-size: 16px;
+}
+nav img{
+    width: 65px;
+    height: 35px;
+    margin-bottom: -3rem;
+    padding: 1rem;
+    margin-top: -1rem;
+    margin-left: 50px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 1rem;
+    font-size: 1.3rem;
+    padding: 1rem;
+    margin-left: 3rem;
+   background-color: rgb(33, 58, 67);
+    border-radius: 0;
+    width: 38px;
+    text-align: center;
+}
+nav ul li:hover{
+  background-color:  rgb(83, 139, 160) ;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.image-container{
+    position: relative;
+}
+.image-container img{
+    opacity: 1;
+    width: 100%;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    align-items: center;
+    top: 50%;
+    bottom: 50%;
+    font-size:3rem ;
+    position: absolute;
+    color: white;
+    line-height: 5rem;
+    padding: 2rem;
+}
+.Button{
+    display: flex;
+    top: 50%;
+    bottom: 50%;
+    justify-content: center;
+}
+ button{
+    border-radius: 2rem;
+    margin: 70% 0;
+    opacity: 1;
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    color: rgb(184, 142, 104);
+    margin-right: 1rem;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    border: none;
+    cursor: pointer;
+}
+.left{
+ display: flex;
+ margin-top: 10rem;
+}
+.who{
+    float: right;
+    width: 40%;
+    padding: 2rem;
+}
+.who h1{
+   font-size: 3rem;
+   line-height: 1.6;
+   margin-top: 4rem;
+}
+
+.who p{
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin-top: 2rem;
+}
+
+.who ul li{
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    line-height: 1.8;
+    margin-left: 2rem;
+}
+
+.i img{
+    float: left;
+    width: 50%;
+    margin: 4rem;
+}
+.locate{
+    float: left;
+    width: 40%;
+    padding: 2rem;
+}
+.locate h1{
+    font-size: 3rem;
+    line-height: 1.6;
+    margin-top: 4rem;
+
+} .locate p{
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin-top: 2rem;
+}
+.r img{
+    float: right;
+    width: 50%;
+    margin: 4rem
+}
+.our h1{
+    font-size: 3rem;
+    line-height: 1.8;
+    margin-top: 10rem;
+    margin-right: 40%;
+    margin-left: 40%;
+
+} 
+.our p{
+    margin-right: 28%;
+    margin-left: 28%;
+    font-size: 1.5rem; 
+    line-height: 1.6;
+    font-weight: 50;
+
+}
+.b {
+    background-color: rgb(46, 79, 91) ;
+    display: flex;
+    margin-top: 10rem;
+    color: white;
+}
+.books{
+ float: left;
+ width: 30%;
+ margin: 3rem;
+}
+.books img{
+    width: 80%;
+    margin-left: 3rem;
+}
+.book3{
+    width: 30%;
+    float: right;
+    margin: 3rem;
+}
+.book3 img{
+    width: 98%;
+    margin-left: 3rem;
+
+}
+.book2{
+    width: 30%;
+    margin: 3rem;
+}
+.book2 img{
+    margin-left: 3rem;
+    width: 80%; 
+}
+.b h1{
+    font-size: 2rem;
+    margin-top: 5rem;
+}
+.b p{
+    font-size: 1.5rem;
+    line-height: 1.6;
+}
+.book3 h1{
+    margin-top: 12rem ;
+}
+footer{
+    display: flex;
+    color:white;
+    background-color :rgb(33, 58, 67) ;
+    width: 100%;
+}
+.about{
+    margin: 2rem;
+    width: 25%;
+}
+.about p{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    line-height: 1.6;
+    font-size: 1.5rem;
+    opacity: 0.6;
+}
+.special{
+    margin: 2rem;
+    width: 25%;
+}
+.special ul li{
+    margin-top: 2rem;
+    line-height: 1.8;
+    font-size: 1.5rem;
+    margin-left: 3rem;
+    opacity: 0.6;
+}
+ .special ul li a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+ }
+ .social{
+    display: block;
+    background-color: white;
+    
+ }
+ .social img{
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35%;
+    margin-right: 30%;
+ }
+ .social p{
+     font-size: 13px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 43%;
+    margin-right: 40%;
+    margin-bottom: 3rem;
+ }
+ .o{
+    width: 80%;
+    margin-top: 10rem;
+ }
+.o h1{
+    margin-right: 15rem;
+    margin-bottom: 4rem;
+    font-size: 2.5rem;
+}
+.o p{
+    margin-right: 15rem;
+    line-height: 1.7;
+    font-size: 18px;
+}
+.im img{
+    width: 70%;
+    margin: 5rem;
+}
+.ourbooks h1{
+    font-size: 2.5rem;
+    line-height: 1.8;
+    margin-top: 10rem;
+    margin-right: 40%;
+    margin-left: 40%;
+    margin-bottom: 3rem;
+    color: rgb(37, 79, 100);
+
+} 
+.ourbooks p{
+    margin-right: 30%;
+    margin-left: 27%;
+    font-size: 1.8rem; 
+    line-height: 1.6;
+    font-weight: 50;
+    margin-bottom: 5rem;
+    text-align: center;
+    color: rgb(46, 45, 45);
+
+}
+.advantage{
+    display: flex;
+    margin-top: 3rem;
+}
+.advantage h3{
+    margin: 3rem;
+    font-size: 2rem;
+    color: rgb(71, 142, 177);
+}
+.advantage p{
+    font-size: 1.4rem; 
+    line-height: 1.6;
+    font-weight: 50;
+    margin: 3rem;
+}
+.c{
+    display: flex;
+    margin-top: 3rem;
+}
+.c h3{
+    margin: 3rem;
+    font-size: 2rem;
+    color: rgb(71, 142, 177);
+}
+.c p{
+    margin: 3rem;
+    font-size: 1.4rem; 
+    line-height: 1.6;
+    font-weight: 50;
+}
+.images{
+    margin: 2rem;
+    display: flex;
+}
+.images img{
+    width: 32%;
+    margin: 0.5rem;
+    
+}
+.d{
+    margin: 2rem;
+    display: flex; 
+}
+.d img{
+    width: 32%;
+    margin: 0.5rem; 
+}
+.text a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    margin-top: 5rem;
+    margin-right: 2rem;
+}
+.text a:hover{
+    color: rgb(126, 69, 69);
+}
+.image-contain{
+    position: relative;
+}
+.image-contain img{
+    opacity: 1;
+    width: 100%;
+    height: 30rem;
+}
+fieldset{
+    margin: 6rem;
+    background-color: rgb(255, 255, 255);
+}
+legend{
+    margin: 8rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    background-color: rgb(33, 58, 67);
+    padding: 0.6rem;
+}
+.n {
+    margin-top: 10rem;
+    margin: 2rem;
+    display: flex;
+    opacity: 1;
+}
+.n input{
+    width: 30%;
+    height: 4rem;
+    margin: 2rem;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+    border-width: 2px;
+    border-style:solid;
+    color: rgb(0, 0, 0);
+    border-radius: 0.7rem;
+}
+.y {
+    width: 62%;
+    height: 4rem;
+    margin: 4rem;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+    border-width: 2px;
+     border-style:solid;
+     border-radius: 0.7rem;
+    
+}
+.m {
+    width: 62%;
+    height: 20rem;
+    margin: 4rem;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+    border-width: 2px;
+     border-style:solid;
+     border-radius: 0.7rem;
+    }
+.f button{
+    margin: 3rem;
+    background-color: rgb(46, 79, 91);
+    color: white;
+    border-radius: 18px;
+    width: 70px;
+    height: 36px;
+}
+.book-store{
+    display: inline;
+    
+}
+.book-store img{
+vertical-align: middle;
+width: 200px;
+margin-bottom: 5rem;
+margin-left: 100px;
+margin-top: -18rem;
+
+}
+.book-store h1{
+text-align: center;
+margin-right: 200px ;
+margin-top: 2rem;
+}
+.book-store p{ 
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 400px;
+    font-size: 18px;
+ }
+ .book-store h3{
+    width: 200px; 
+    margin-top: 20px;
+    margin-left: 400px;
+    font-size: 18px; 
+ }
+.more-books{
+display: block;
+margin: 2rem;
+margin-left: 10rem;
+background-color: rgb(119, 81, 19);
+color: white;
+}
+.more-books:hover{
+background-color: rgb(222, 162, 88);
+}
